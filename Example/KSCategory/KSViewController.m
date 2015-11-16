@@ -7,6 +7,7 @@
 //
 
 #import "KSViewController.h"
+#import "UIImage+KS.h"
 
 @interface KSViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [UIImage createImageWithColor:[UIColor whiteColor]];
 }
 
 - (void)didReceiveMemoryWarning

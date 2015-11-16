@@ -1,0 +1,25 @@
+{
+  "name": "KSCategory",
+  "version": "0.1.0",
+  "summary": "方便开发的扩展类",
+  "description": "0.1.0:在旧项目开发中使用到的扩展类",
+  "homepage": "https://github.com/spbreak/KSCategory",
+  "license": "MIT",
+  "authors": {
+    "spbreak": "527108411@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/spbreak/KSCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "KSCategory": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
