@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'KSCategory_Example', :exclusive => true do
+  pod "KSCategory", :path => "../"
+end
+
+target 'KSCategory_Tests', :exclusive => true do
+  pod "KSCategory", :path => "../"
+
+  pod 'Kiwi'
+end
